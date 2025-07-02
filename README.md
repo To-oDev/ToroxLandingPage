@@ -1,25 +1,24 @@
-# ToroxIndustries Landing Page
+# ToroxIndustries Landing Page / Página de aterrizaje de ToroxIndustries
 
-Landing page oficial para ToroxIndustries, diseñada con enfoque tecnológico y visual moderno. Incluye un fondo animado con shaders WebGL reactivos al scroll y una interfaz translúcida minimalista.
+Landing page oficial con diseño moderno, fondo animado reactivo y formulario de contacto conectado a backend propio.
 
-## 🚀 Características
+Official landing page with modern design, reactive animated background, and contact form connected to custom backend.
 
-- Fondo animado con shaders reactivos (`react-three-fiber`)
-- Interfaz limpia y responsiva
-- Navbar translúcida con efecto glass
-- Formulario de contacto funcional (requiere endpoint de mailing)
-- Estructura modular y escalable con componentes
+---
 
-## 📦 Requisitos
+## 🚀 Características / Features
 
-- Node.js 18+
-- Navegador con soporte WebGL
-- Acceso al endpoint de mailing (ver más abajo)
+- Fondo animado con shaders WebGL reactivos al scroll / WebGL shader background reactive to scroll  
+- Navbar translúcida con efecto glass / Translucent navbar with glass effect  
+- Cards dinámicas para el equipo / Dynamic team cards  
+- Formulario de contacto funcional conectado a backend propio / Functional contact form connected to custom backend  
 
-## 🔧 Instalación y ejecución
+---
+
+## 🧪 Cómo probar / How to run locally
 
 ```bash
 git clone git@github.com:To-oDev/ToroxLandingPage.git
 cd ToroxLandingPage
 npm install
-npm run dev # o npm start
+npm run dev
