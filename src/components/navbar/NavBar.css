@@ -1,0 +1,15 @@
+nav a {
+  margin-left: 2rem;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  
+  background-color: rgba(0, 0, 0, 0.3); /* negro transparente */
+  backdrop-filter: blur(8px); /* efecto vidrio si quieres */
+  -webkit-backdrop-filter: blur(8px); /* para Safari */
+  color: white; /* o el color que quieras para el texto */
+}
+
+nav a:hover {
+  color: #00f0ff;
+}

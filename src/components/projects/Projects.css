@@ -1,0 +1,55 @@
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* .project-card {
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s;
+} */
+
+.project-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.project-card {
+  transition: all 1s ease;
+  padding: 1rem;
+  background: #1a1a1a;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  overflow: hidden;
+  max-height: 180px;
+}
+
+.project-card.expanded {
+  background: #1a1a1a;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  max-height: 1000px; /* o lo que necesites */
+}
+
+.project-card .media {
+  margin-top: 1rem;
+}
+
+.project-card img,
+.project-card video {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.short-description {
+  color: #ffffff;
+}
+
+.full-description {
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 1rem;
+}
