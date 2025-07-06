@@ -43,13 +43,13 @@ export default function ProjectsSection() {
           fullDescription="Torox City is a large-scale prototype metropolis created by Torox Industries to test and refine new technologies in a living, player-driven environment.
 Every system in the city — from transit to economy — is designed and deployed by Torox, and it’s through player interaction that each technology proves its worth.
 Here, play becomes experimentation, and the city itself evolves with every decision its citizens make."
-          media={{ type: 'image', src: '/media/torox-city.png' }}
+          media={{ type: 'image', src: './media/torox-city.png' }}
         />
         <ProjectCard
           title="🏁 Drifting Driver"
           shortDescription="Drifting races with semi realistic physics."
           fullDescription="Drifting Driver is a racing game with semi-simulated physics where mastering the drift is everything. Slide through tight corners, control weight transfer, and conquer urban, mountain, and futuristic tracks with pinpoint precision."
-          media={{ type: 'video', src: '/media/drifting-proto.mp4' }}
+          media={{ type: 'video', src: './media/drifting-proto.mp4' }}
         />
         <ProjectCard
           title="AdverWorlds"
@@ -57,7 +57,7 @@ Here, play becomes experimentation, and the city itself evolves with every decis
           fullDescription="While at Disandat, we created branded games for companies looking to connect with the Roblox audience through play — not just promotion.
 Each experience was designed to stand on its own as a game first, with brand integration woven naturally into the mechanics, environments, and rewards.
 These projects proved that marketing in the metaverse works best when it puts fun before funnel"
-          media={{ type: 'image', src: '/media/torox-brandworks.png' }}
+          media={{ type: 'image', src: './media/torox-brandworks.png' }}
         />
       </div>
     </section>
