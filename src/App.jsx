@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 import './App.css'
 import Background from './components/background/Background'
 import Contact from './components/contact/Contact'
