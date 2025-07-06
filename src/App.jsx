@@ -1,5 +1,5 @@
 /**
- * 
+ * 07.2025
  */
 import './App.css'
 import Background from './components/background/Background'
