@@ -3943,7 +3943,7 @@ No matching component was found for:
   uniform float scrollY;
 
   float gridLine(float coord) {
-    float thickness = 0.002;
+    float thickness = 0.0001;
     return smoothstep(thickness, 0.0, abs(fract(coord * 5.0) - 0.5));
   }
 
