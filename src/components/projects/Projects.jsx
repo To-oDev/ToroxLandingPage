@@ -54,7 +54,7 @@ Here, play becomes experimentation, and the city itself evolves with every decis
         <ProjectCard
           title="AdverWorlds"
           shortDescription="Branded games we developed for major clients while at Disandat — made to engage, not interrupt."
-          fullDescription="While at Disandat, we created branded games for companies looking to connect with the Roblox audience through play — not just promotion.
+          fullDescription="We created branded games for companies looking to connect with the Roblox audience through play — not just promotion.
 Each experience was designed to stand on its own as a game first, with brand integration woven naturally into the mechanics, environments, and rewards.
 These projects proved that marketing in the metaverse works best when it puts fun before funnel"
           media={{ type: 'image', src: './media/torox-brandworks.png' }}
