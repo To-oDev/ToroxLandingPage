@@ -15,13 +15,13 @@ const fragmentShader = `
   uniform float scrollY;
 
   float gridLine(float coord) {
-    float thickness = 0.002;
+    float thickness = 0.005;
     return smoothstep(thickness, 0.0, abs(fract(coord * 5.0) - 0.5));
   }
 
   void main() {
     float xLines = gridLine(vUv.x + time * 0.1);
-    float yLines = gridLine(vUv.y + scrollY);
+    float yLines = gridLine(vUv.y + scrollY*1.5);
 
     vec3 color = vec3(0.635, 0.349, 1.0) * max(xLines, yLines); // #a259ff
     color *= 0.5 + 0.5 * sin(time * 3.0);
