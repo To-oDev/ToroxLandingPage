@@ -1,6 +1,8 @@
 # ToroxIndustries Landing Page / Página de aterrizaje de ToroxIndustries
 
-Landing page oficial, fondo animadocon WebGL y formulario de contacto conectado a backend propio.
+Landing page "oficial" de Torox (studio dev de videojuegos propio).
+Fondo animado con WebGL.
+Formulario de contacto conectado a backend para respuesta atuomatica de emails.
 
 ---
 
@@ -8,7 +10,8 @@ Landing page oficial, fondo animadocon WebGL y formulario de contacto conectado 
 
 - Fondo animado con shaders WebGL
 - Cards dinámicas
-- Formulario de contacto funcional conectado a backend propio
+- Formulario de contacto funcional conectado a backend
+- Respuesta automática de emails
 
 ---
 

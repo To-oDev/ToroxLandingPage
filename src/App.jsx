@@ -15,14 +15,16 @@ function App() {
   return (
     <>
       <header>
-        <div className="logoContainer"><a href="#hero" className="logo">TOROX</a></div>
+        <div className="logoContainer">
+          <a href="#hero" className="logo">TOROX</a>
+        </div>
         <NavBar />
       </header>
-      <Background />
       <Hero />
       <Projects />
       <Team />
       <Contact />
+      <Background />
 
       <footer>
         <p>&copy; 2025 TOROX. All rights reserved.</p>
