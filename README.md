@@ -1,25 +1,40 @@
-# ToroxIndustries Landing Page / Página de aterrizaje de ToroxIndustries
+# Torox Landing Page
 
-Landing page "oficial" de Torox (studio dev de videojuegos propio).
-Fondo animado con WebGL.
-Formulario de contacto conectado a backend para respuesta atuomatica de emails.
+Torox es un estudio de videojuegos independiente para roblox.
+Esta landing page es el prototipo del sitio oficial de Torox Studio.
+
+## Incluye
+
+- Información general del estudio y sus integrantes.
+
+- Un background dinamico utilizando WebGL.
+
+- Un formulario de contacto que se envía a [ToroxContactServer](https://github.com/To-oDev/ToroxContactServer), un endpoint construido en Java con Springboot. 
+    > 💡 Este endpoint recibe las peticiones POST del formulario y responde de manera automatica con un correo de notificación para el estudio y un correo de respuesta automatica al remitente.
+
+> ⚠️ ToroxLandingPage y ToroxContactServer han sido probados en modo localhost. Es necesario adaptarlo para su uso en producción.
 
 ---
 
-## 🚀 Características / Features
+## 🚀 Características
 
 - Fondo animado con shaders WebGL
-- Cards dinámicas
-- Formulario de contacto funcional conectado a backend
-- Respuesta automática de emails
+- Tarjetas animadas de información
+- Formulario de contacto
+- Pruebas de forma local
 
 ---
 
-## 🧪 Cómo probar / How to run locally
+## 🧪 Cómo probar
 
 ```bash
-git clone git@github.com:To-oDev/ToroxLandingPage.git
+git clone https://github.com/To-oDev/ToroxLandingPage
 cd ToroxLandingPage
 npm install
 npm run dev
 ```
+
+Navega la Landing.
+Revisa la información.
+Contacta con el formulario.
+> ⚠️ Para que el formulario sea recibido y se produzca la respuesta automatica es necesario descargar [ToroxContactServer](https://github.com/To-oDev/ToroxContactServer) y correr de forma local con Intelli J IDEA Community Edition,
