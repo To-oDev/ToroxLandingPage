@@ -62,3 +62,10 @@ Este proyecto sirve como caso práctico de integración entre frontend y backend
 - Experimentar con envío de formularios y respuestas automáticas.
 - Aprender a conectar una aplicación web con un backend en Spring Boot.
 - Explorar el uso de WebGL en interfaces web.
+
+## 🖥️ Vista previa
+
+![Vista previa](public/preview.png)
+![Vista previa](public/preview_2.png)
+![Vista previa](public/preview_3.png)
+![Vista previa](public/preview_4.png)
